@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navreet Singh-Personal Portfolio</title>
+
+        <!--
+        - CSS
+        -->
+        <link rel="stylesheet" href="style.css">
+
+        <!--
+        - GOOGLE FONT
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        </head>
+
+    <body>
+
+        <!--
+        - #MAIN
+        -->
+
+        <main>
+
+            <!--
+            - #SIDEBAR
+            --> 
+
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQHOUaAm1vAM8w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726427546614?e=1773878400&v=beta&t=z8fWY1qTEwbTg1RnhhQYl9IgTHX7cDNZ4a6a1Zdv93A" alt="Navreet Singh" width="80">
+                    </figure>
+                    <div class="info-content">
+                        <h1 class="name" title="Navreet Singh">Navreet Singh</h1>
+                        <p class="title">Full Stack Developer</p>
+                    </div>
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>Show Contacts</span>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:navreetsingh172345@gmail.com" class="contact-link">navreetsingh172345@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+919697188839" class="contact-link">+91 9697188839</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="1982-06-23">13 May 2004</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Jammu & Kashmir</address>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+       
+            <!--
+            - #MAIN-CONTENT
+            -->
+       
+            <div class="main-content">
+
+                <!--
+                - #NAVBAR
+                -->
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <button class="navbar-link  active" data-nav-link>About</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Resume</button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Portfolio</button>
+                        </li>
+                        <!-- <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>Contact</button>
+                        </li> -->
+                </ul>
+            </nav>
+
+            <!--
+            - #ABOUT ME
+            -->
+
+            <article class="about  active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-me">
+                    <div class="about-container">
+                        <h1 class="hero-heading">👋 Hi, I'm <span class="highlighted-name">Navreet Singh</span></h1>
+                        <p class="intro">
+                          I’m a Third-year <strong>Computer Science and Engineering</strong> student at <strong>Chandigarh University</strong>, passionate about technology, innovation, and solving real-world problems through code.
+                        </p>
+                        <h2>🚀 What I Do</h2>
+                        <p>
+                          I am a <strong>Computer Science undergraduate</strong> focused on building <strong>AI-driven</strong> and <strong>IoT-based intelligent systems</strong> that solve <strong>real-world problems</strong>. My work spans <strong>patented innovations</strong> in <strong>water sustainability</strong> and <strong>precision agriculture</strong>, where I have designed <strong>scalable solutions</strong> using <strong>cloud computing</strong>, <strong>real-time data pipelines</strong>, and <strong>smart automation architectures</strong>. With a strong foundation in <strong>Python</strong> and <strong>web development</strong>, and a growing focus on <strong>AI</strong>, <strong>machine learning</strong>, and <strong>IoT</strong>, I enjoy turning <strong>complex ideas</strong> into <strong>practical, reliable systems</strong> that balance <strong>technical depth</strong> with <strong>clean, user-focused design</strong>.
+                        </p>
+                    
+                        <h2>🛠️ What I’ve Built</h2>
+                        <ul class="projects">
+                        <li>🔍 Purion: An <strong>Adaptive Sensor-Driven Domestic Water Filtration System</strong> (Patented) with Minimal Wastewater Discharge.</li>
+                        <li>🔍 An <strong>AI-Enabled Capacitive Deionization Based Intelligent System</strong> (Patented) for Domestic RO Reject Water Utilization</li>
+                        <li>🔍 An <strong>Intelligent Fertilizer Recommendation Platform</strong> (Patented) for Precision and Sustainable Agriculture</li>
+                        <li>🔍 A <strong>Smart Doorbell System</strong> (Patented) with real-time security features</li>
+                        <li>🔍 An <strong>IoT-based Smart Water Quality Monitoring System for Domestic and Community-Level Applications</strong> (Patented) with real-time analysis and prediction</li>
+                        </ul>
+                    
+                        <h2>🌟 Beyond the Code</h2>
+                        <ul class="roles">
+                        <li>Filed 20+ Patents in the field of Smart IoT Systems and Security Systems.</li>
+                        <li>Student Member - Academic Council, Chandigarh University</li>
+                        <li>Institution Social Responsibility Ambassador</li>
+                        <li>Event Organizer</li>
+                        <li>Research Intern at Indian Institute of Technology, Jammu </li>
+                        <li>Microsoft Learn Student Ambassador</li>
+                        <li>Google Cloud Arcade Facilitator</li>
+                        <li>GirlScript Summer of Code'24 Contributor</li>
+                        <li>Open-Source Enthusiast</li>
+                        </ul>
+                    
+                        <p class="closing">
+                          💡 I believe in building with purpose and learning by doing. I’m always exploring new frameworks, contributing to projects, and engaging with the tech community.
+                        </p>
+                        <h2>🏆 Guinness World Record Holder</h2>
+                        <div class="guinness-record">
+                            <img src="Microsoft-Learner-Badge-Guinness-World-Record-Holder.png" alt="Guinness World Record Badge" class="record-badge" />
+                            <br>
+                            <p>
+                                🎉 On <strong>April 8, 2025</strong>, I officially became a part of history by contributing to a<strong>GUINNESS WORLD RECORDS™</strong> title for the most users to take an online multi-level AI lesson in 24 hours,during the <strong>Microsoft AI Skills Fest</strong>. I'm incredibly honored to have been part of this global achievement!
+                            </p>
+                            <p class="record-cta">
+                                🥳 <em>Let’s shape the future of AI together!</em> <a href="https://learn.microsoft.com/en-us/training/" target="_blank">#AISkillsFest</a>
+                            </p>
+                        </div>
+                        <h2>🤝 Let’s Connect!</h2>
+                        <p>
+                          I'm excited to collaborate on innovative projects and open-source initiatives. Feel free to explore my work and reach out — let’s build something amazing together!
+                        </p>
+                      </div>
+                </section>
+                <br>          
+
+                <!--
+                - SOCIAL MEDIA
+                -->
+        
+                <section class="service">
+                    <h3 class="h3 service-title">Online Presence</h3>
+                    <ul class="floating-social-row">
+                        <li class="service-item">
+                            <a href="https://www.linkedin.com/in/navreetsingh13" target="_blank" class="social-link linkedin">
+                                <img src="https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" alt="LinkedIn">
+                            </a>
+                        </li>
+                        <li class="service-item">
+                            <a href="https://mvp.microsoft.com/en-US/studentambassadors/profile/401bebea-30fa-4a28-834d-fd039bbcb48a
+                            " target="_blank" class="social-link MLSA">
+                                <img src="https://miro.medium.com/v2/resize:fit:1200/1*fMCdGCokXoh8CECCD7j9Og.png" alt="MLSA">
+                            </a>
+                        </li>
+                        <li class="service-item">
+                            <a href="https://github.com/navreetsingh13" target="_blank" class="social-link github">
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                            </a>
+                        </li>
+                        <li class="service-item">
+                            <a href="https://leetcode.com/navreetsingh13" target="_blank" class="social-link leetcode">
+                                <img src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2944960.png?f=webp" alt="LeetCode">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>    
+
+                <!--
+                - testimonials modal
+                -->
+            <article>
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                        </button>
+                    </section>
+                </div>
+            </article>
+
+            <!--
+            - #RESUME
+            -->
+
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Chandigarh University</h4>
+                            <span>2023 — 2027</span>
+                            <p class="timeline-text">
+                                Bachelor of Engineering in Computer Science
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">JK Public School</h4>
+                            <span>2021 — 2022</span>
+                            <p class="timeline-text">
+                                Intermediate
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">JK Public School</h4>
+                            <span>2019 — 2020</span>
+                            <p class="timeline-text">
+                                Matriculation
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Student Member – Academic Council, Chandigarh University</h4>
+                            <span>2025</span>
+                            <p class="timeline-text">
+                             Playing a key role in university-level policy making as a Student Member of the Academic Council, the highest position a student can hold, and representing student perspectives in major academic decisions.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Research Intern: Indian Institute of Technology,Jammu</h4>
+                            <span>2025</span>
+                            <p class="timeline-text">
+                            Implemented a Raspberry Pi-based autonomous object-following drone using PyMAVLink, OpenCV, and real-time camera streaming during an 8-week Internship.
+                            </p>
+                            <br>
+                            <p class="timeline-text">
+                            Achieved stable flight with 95%+ detection accuracy and seamless object tracking under edge computing constraints.
+                            </p>
+                            <br>
+                            <p class="timeline-text">
+                            Delivered a fully integrated smart IoT solution, enhancing drone responsiveness and control for real-world deployment.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Virtual Internship: Attendance Management System Using Face Recognition</h4>
+                            <span>2024</span>
+                            <p class="timeline-text">
+                                Completed a 4-week virtual internship organized by AICTE and Edunet Foundation in collaboration with Microsoft and SAP.
+                            </p>
+                            <br>
+                            <p class="timeline-text">
+                                Gained hands-on experience in project development within a practical and collaborative environment.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="skills" id="skills">
+                    <h3 class="h3">Skills</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <h3>Languages</h3>
+                            <ol class="custom-bullets">
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>ReactJS</li>
+                                <li>SQL</li>
+                            </ol>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Domain Specific</h3>
+                            <ol class="custom-bullets">
+                                <li>Google Cloud</li>
+                                <li>OOPS</li>
+                                <li>Operating Systems</li>
+                                <li>DBMS</li>
+                                <li>Computer Networks</li>
+                                <li>Data Structures and Algorithms</li>
+                                <li>Git</li>
+                                <li>Github</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>                
+                <a href="https://drive.google.com/file/d/1Pbz1rLP_oUIehaccAQpqy5-xxt9EVg_T/view?usp=sharing" download class="download-btn">View Resume</a>
+            </article>
+
+            <!--
+            - #PORTFOLIO
+            -->
+
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <section class="projects">
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-selecct-value>Select category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                    </div>
+                </section>
+                <section id="projects" class="about-me">
+                    <div class="project-container">
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="Purion_2.png" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Purion: An Adaptive Sensor-Driven Domestic Water Filtration System with Minimal Wastewater Discharge</h3>
+                                <p class="description">Filed a patent on an AI-enabled capacitive deionization (CDI) based intelligent system for domestic RO reject water utilization, targeting 70–90% reduction in effective water wastage through smart reuse.</p>
+                                <!-- <p class="description" class="about-me"><strong>Application Number</strong><br>202411022140</p> -->
+                                <!-- <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a> -->
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="CDI.png" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>AI-Enabled Capacitive Deionization Based Intelligent System for Domestic RO Reject Water Utilization</h3>
+                                <p class="description">Proposed and patented an AI-driven capacitive deionization framework for domestic RO reject water utilization, addressing a critical sustainability challenge by reducing final wastewater discharge by 90% under low-TDS conditions.  ̃</p>
+                                <!-- <p class="description" class="about-me"><strong>Application Number</strong><br>202511065376</p>
+                                <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a> -->
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="2.png" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Intelligent Fertilizer Recommendation Platform for Precision and Sustainable Agriculture</h3>
+                                <p class="description">Filed a patent integrating soil sensors, crop phenology modeling, and environmental data for precision nutrient optimization.</p>
+                                <!-- <p class="description" class="about-me"><strong>Application Number</strong><br>202511065376</p>
+                                <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a> -->
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="Firearm.png" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>IoT-Based Firearm Usage Monitoring Device</h3>
+                                <p class="description">An IoT-enabled safety system that monitors firearm usage in real time to improve accountability, traceability, and responsible handling.</p>
+                                <p class="description" class="about-me"><strong>Application Number</strong><br>202511109936</p>
+                                <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="Chopello.png" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Chopello: Smart Multi-Compartment Food Processor with Independent Blade Control and Auto-Cleaning System</h3>
+                                <p class="description">A smart kitchen appliance with independently controlled blades and an automated cleaning mechanism to optimize efficiency, safety, and convenience.</p>
+                                <p class="description" class="about-me"><strong>Application Number</strong><br>202511112378</p>
+                                <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="Front.png" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>IntruSecure: A Smart IoT-Based Intrusion Detection and Alert System with Image Capture and Mesh Network</h3>
+                                <p class="description">An intelligent intrusion detection system combining image capture and IoT mesh networking for reliable, real-time security alerts.</p>
+                                <p class="description" class="about-me"><strong>Application Number</strong><br>202511119307</p>
+                                <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="https://psiborg.in/wp-content/uploads/2024/01/water-quality-Monitoring-System-1.webp" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>IoT Based Water Quality Monitoring for Domestic and Comunity Level Problems</h3>
+                                <p class="description">Developed an IoT-based system for monitoring water quality, addressing both domestic and community-level issues.</p>
+                                <p class="description" class="about-me"><strong>Application Number</strong><br>202511065376</p>
+                                <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6cjw3OYNe011cWRQiL7byDvVyVIMo0nhn3g&s" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Smart Doorbell System with Added Security Features</h3>
+                                <p class="description">Implemented a smart doorbell system that includes facial recognition and real-time alerts for enhanced security.</p>
+                                <p class="description" class="about-me"><strong>Application Number</strong><br>202411022140</p>
+                                <a href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/" class="github-link" target="_blank">View My Published Patent</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8sgfDnx7f7t6V3wvm_z4JoxJFgbA92mZuA&s" alt="Project 1">
+                            </div>
+                            <div class="card-content">
+                                <h3>Attendance Management System Using Face Recognition</h3>
+                                <p class="description">Developed an attendance management system leveraging Python and key libraries such as OpenCV, Tkinter, NumPy, and Pandas.</p>
+                                <p class="technologies">Tech:Python</p>
+                                <a href="https://github.com/NavreetSingh13/Attendance-Management-System-using-Face-Recognition" class="github-link" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHosaaEfbcZK48LM7kyNKpKW1q-8uKIDbtrA&s" alt="Project 2">
+                            </div>
+                            <div class="card-content">
+                                <h3>Railway Management System</h3>
+                                <p class="description">This project is a python based system for managing operations in railways.</p>
+                                <p class="technologies">Tech: Python,SQL</p>
+                                 <a href="https://github.com/NavreetSingh13/RAILWAY_MANAGEMENT_SYSTEM" class="github-link" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <!--
+            - #CONTACT
+            -->
+            <!-- 
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" width="400" height="300" loading="lazy">
+                        </iframe>
+                    </figure>
+                </section>
+                <section class="mapbox">
+                    <div id="map"></div>
+                    <section class="contact-form">
+                        <h3 class="h3 form-title">Contact Form</h3>
+                        <form action="#" class="form" data-form>
+                            <div class="input-wrapper">
+                                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                            </div>
+                            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                            <button class="form-btn" type="submit" disabled data-form-btn>
+                                <ion-icon name="paper-plane"></ion-icon>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+                    </section>
+                </section>
+            </article> -->
+        </main>
+
+        <!--
+        - JS
+        -->
+
+        <script src="script.js"></script>
+
+        <!--
+        - IONICON
+        -->
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>
